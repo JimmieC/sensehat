@@ -31,7 +31,7 @@ green = (0, 255, 0)
 yellow = (255, 255, 0)
 red = (255, 0, 0)
 blue = (0, 0, 255)
-orange = (255, 150, 0)
+orange = (255, 120, 0)
 nothing = (0,0,0)
 
 #Set Core Color
@@ -75,4 +75,5 @@ while True:
     s.set_pixels(cores())
     rcv()
     rdv()
+    rrv()
     time.sleep(.75)
